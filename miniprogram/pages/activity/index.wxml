@@ -1,0 +1,6 @@
+<!--activity.wxml-->
+<view class="container log-list">
+  <text>{{ activity.title }}</text>
+  <text>{{ activity.date }}</text>
+  <text>报名</text>
+</view>

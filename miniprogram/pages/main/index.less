@@ -1,0 +1,31 @@
+/**index.wxss**/
+
+.container {
+  padding-top: 32rpx;
+  .card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 16px 2px #eee;
+    .cover {
+      height: 8rem;
+      display: block;
+    }
+    .content-wrapper {
+      padding: .5rem .5rem .75rem;
+      .title {
+        font-weight: bold;
+        font-size: 1.125rem;
+        margin: 0 0 .5rem;
+        display: block;
+      }
+      .date {
+        color: #888;
+        font-size: .875rem;
+      }
+    }
+  }
+  .card:not(:first-child) {
+    margin-top: 32rpx;
+  }
+}

@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view wx:for="{{items}}" wx:key="timeStamp" wx:for-item="item" class="card" bindtap="detailTap">
+    <image class="cover" src="../../assets/activity-cover.jpg"></image>
+    <view class="content-wrapper">
+    <text class="title">{{item.title}}</text>
+    <text class="date">{{item.date}}</text>
+  </view>
+  </view>
+</view>
